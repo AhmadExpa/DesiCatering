@@ -1,0 +1,208 @@
+Build a fully functional, mobile-first, single-page landing website using Next.js (latest App Router).
+There is NO backend and NO database. Everything must be frontend-only.
+
+Tech & Structure
+
+Framework: Next.js (App Router)
+
+Styling: Tailwind CSS
+
+TypeScript preferred
+
+SEO-friendly structure
+
+Mobile-first, responsive, modern UI
+
+Optimized images using next/image
+
+Clean, production-ready code
+
+App Type
+
+Single-page landing website
+
+No authentication
+
+No admin panel
+
+No APIs
+
+Layout & Sections (Top to Bottom)
+1. Hero Section (Top)
+
+Full-width image slider / carousel
+
+Slider content loaded from:
+
+/public/uploads/deals/
+
+
+Used for:
+
+Deals of the week
+
+Promotions
+
+Auto-slide + swipe support on mobile
+
+2. Action Buttons Section (Primary CTA)
+
+Display four large, attractive buttons (mobile-friendly):
+
+Download Menu
+
+Links to a PDF file
+
+File location:
+
+/public/uploads/menu.pdf
+
+
+Order on Uber Eats
+
+https://www.order.store/store/railway-telegraph/ZRwX-NuEX_CaSFPNwa1RGw
+
+
+Order on Deliveroo
+
+https://deliveroo.co.uk/menu/London/south-norbury/xpress-pizza-house-19-brigstock-road/
+
+
+Order on Just Eat
+
+https://www.just-eat.co.uk/restaurants-xpress-pizza-house-thornton-heath/menu
+
+
+Buttons must be:
+
+Big
+
+Touch-friendly
+
+Visually distinct
+
+Icon-based (Uber / Deliveroo / Just Eat icons)
+
+3. Floating WhatsApp Button
+
+Always visible (bottom-right)
+
+Opens WhatsApp chat
+
+Phone number:
+
++44 7943 273077
+
+
+Use wa.me format
+
+Animated pulse effect preferred
+
+4. Menu Showcase Section (Image-Heavy)
+
+Minimal text
+
+Grid / masonry layout
+
+Categories shown via images:
+
+Pizza
+
+Burgers
+
+Wraps
+
+Wings
+
+Shakes
+
+Shisha
+
+Images loaded from:
+
+/public/uploads/
+
+5. About / Description (Short)
+
+Very minimal text
+
+Focus on visuals
+
+Just a short intro about food quality and variety
+
+6. Footer Section
+
+Includes:
+
+Contact Information
+
+Email:
+
+contact@desicateringlimted.com
+
+
+Phone:
+
++44 7943 273077
+
+Contact Form (Frontend Only)
+
+Fields:
+
+Name
+
+Email
+
+Message
+
+On Send button click:
+
+Redirect user to their email client
+
+Pre-fill:
+
+Recipient: contact@desicateringlimted.com
+
+Subject: “Website Contact”
+
+Body: message user typed
+
+(Use mailto: behavior — no backend)
+
+Assets & Data Handling
+
+Deals images: /public/uploads/deals/
+
+Menu PDF: /public/uploads/menu.pdf
+
+All images referenced dynamically
+
+No hardcoded image imports
+
+Design Requirements
+
+High-end restaurant look
+
+Dark / premium theme preferred
+
+Smooth animations
+
+Clean spacing
+
+No clutter
+
+Mobile UX is priority over desktop
+
+Deliverables
+
+Complete Next.js project structure
+
+Ready to run
+
+No placeholders
+
+No backend logic
+
+No database
+
+No environment variables required
