@@ -42,12 +42,13 @@ const buttons: ActionButtonProps[] = [
 
 function ActionButton({ title, url, color, icon: Icon, delay }: ActionButtonProps) {
   const isPdf = title === "Download Menu";
-  
+
   return (
     <motion.a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
+      {...(isPdf ? { download: "DesiCatering-Menu.pdf" } : {})}
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -63,9 +64,9 @@ function ActionButton({ title, url, color, icon: Icon, delay }: ActionButtonProp
       `}
     >
       <div className="absolute top-0 right-0 -mt-4 -mr-4 p-8 bg-white/10 rounded-full blur-2xl group-hover:bg-white/20 transition-all duration-500" />
-      
+
       <Icon className="w-8 h-8 md:w-10 md:h-10 text-white drop-shadow-md" />
-      
+
       <div className="relative z-10">
         <span className="text-xs font-semibold text-white/80 uppercase tracking-wider mb-1 block">
           {isPdf ? "View PDF" : "Order on"}
